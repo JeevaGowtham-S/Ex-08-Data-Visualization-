@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 df=pd.read_csv("/content/Superstore.csv",encoding="ISO-8859-1")
 df
-df.isnull.sum()
+df.isnull().sum()
 df.info()
 df.describe()
 ```
